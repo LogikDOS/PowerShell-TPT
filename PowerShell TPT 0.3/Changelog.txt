@@ -5,5 +5,11 @@ Version 0.1 - 28.02.2026 02:57 Deustchland (Germany)
 Still a DEV Version aka a DEMO not Ready acctuly many commands might not work
 STEP, DRAW are the most usefull ones expect many Bugs an issues 
 
-Version 0.2
-nope. not yet!
+Version 0.2 xx.xx.xxxx xx:xx Deutschland (Germany) (Failed)
+Failed Rendering tests and other things
+reworked element id list and icons
+
+Version 0.3 28.02.2026 13:59
+Added PAUSE and STEP reworked 
+while paused or running step can do a single frame step 
+Added GAS ID:4 Icon: : , Rises 
