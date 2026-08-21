@@ -1,0 +1,74 @@
+More Commands
+
+COMMANDS
+--------
+
+mc.element(name)
+Short: Gets an element ID.
+
+Detailed:
+Takes an element name and returns its numerical TPT element ID.
+Example: mc.element("DUST") → 1
+
+
+mc.randomfill()
+Short: Fills the plane with random elements and properties.
+
+Detailed:
+Creates random elements and randomizes properties such as life,
+ctype, temp, tmp, tmp2, tmp3, tmp4, flags, velocity and deco colour.
+
+
+mc.locate(x, y)
+Short: Places DMND at a coordinate.
+
+Detailed:
+Creates a DMND particle at the specified X and Y coordinates.
+Example: mc.locate(100, 200)
+
+
+mc.datetime()
+Short: Gets the current date and time.
+
+Detailed:
+Returns and prints the current date and time using YYYY-MM-DD HH:MM:SS.
+
+
+mc.testscreen()
+Short: Creates a full-screen color test pattern.
+
+Detailed:
+Clears the simulation and creates rainbow, grayscale, RGB/CMY,
+and black/white checkerboard sections.
+
+
+mc.elementtest()
+Short: Tests element IDs from 1 to 1000.
+
+Detailed:
+Attempts to create every element ID from 1 through 1000 in a
+100×100 area and reports how many usable IDs were found.
+
+
+mc.frames(fps, seconds)
+Short: Converts seconds to frames.
+
+Detailed:
+Multiplies FPS by seconds and prints the resulting frame count.
+Useful for calculating LIFE or DLAY values.
+
+
+mc.noise()
+Short: Creates black/white random noise.
+
+Detailed:
+Fills the simulation with random pixels using only 00 (black)
+and FF (white).
+
+
+mc.perlin()
+Short: Creates smooth gradient noise.
+
+Detailed:
+Creates a grayscale Perlin/gradient noise map ranging from
+00 (black) to FF (white).
